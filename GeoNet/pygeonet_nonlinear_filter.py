@@ -4,6 +4,7 @@ import scipy.signal as conv2
 from time import perf_counter 
 from scipy.stats.mstats import mquantiles
 from pygeonet_rasterio import *
+!pip install rasterio
 from pygeonet_plot import *
 from numba import njit
 
